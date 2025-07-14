@@ -11,10 +11,10 @@ export const config = {
 	},
 	walletClientUrl: process.env.WALLET_BACKEND_CLIENT__URL || "WALLET_CLIENT_URL",
 	webauthn: {
-		attestation: process.env.WALLET_BACKEND_WEBAUTHN_ATTESTATION || "direct",
+		attestation: process.env.WALLET_BACKEND_WEBAUTHN__ATTESTATION || "direct",
 		origin: process.env.WALLET_BACKEND_WEBAUTHN__ORIGIN || "WEBAUTHN_ORIGIN",
 		rp: {
-			id: process.env.WALLET_BACKEND_WEBAUTH_NRP__ID || "WEBAUTHN_RP_ID",
+			id: process.env.WALLET_BACKEND_WEBAUTHN_RP__ID || "WEBAUTHN_RP_ID",
 			name: process.env.WALLET_BACKEND_WEBAUTHN_RP__NAME || "wwWallet demo",
 		},
 	},
