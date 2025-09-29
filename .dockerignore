@@ -5,6 +5,10 @@
 .npmrc
 .npmrc.template
 .vscode
+.github
+.devcontainer
+Dockerfile
+development.Dockerfile
 README.md
 dist
 node_modules
